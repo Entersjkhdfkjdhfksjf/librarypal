@@ -6,7 +6,7 @@
     "image": "https://m.media-amazon.com/images/I/51t0Z0DfEfL.jpg",
     "schoolid": 1,
     "genre": "Fiction",
-    "desc": "Never gonna give you up"
+    "desc": "The story is set in the fictional world of Middle-earth and follows the journey of Frodo Baggins and the Fellowship on a quest to destroy the One Ring and defeat the dark lord Sauron"
   },
   {
     "author": "George Orwell",
@@ -14,7 +14,8 @@
     "pages": 328,
     "image": "https://m.media-amazon.com/images/I/51iq85zLtRL.jpg",
     "schoolid": 2,
-    "genre": "Fiction"
+    "genre": "Fiction",
+    "desc": "1984 by George Orwell is a dystopian novel set in the year 1984 in the totalitarian state of Oceania. The story follows the protagonist, Winston Smith, who works at the Ministry of Truth and secretly rebels against the oppressive Party led by Big Brother"
   },
   {
     "author": "Harper Lee",
@@ -22,7 +23,8 @@
     "pages": 324,
     "image": "https://m.media-amazon.com/images/I/71FxgtFKcQL.jpg",
     "schoolid": 3,
-    "genre": "Children's books"
+    "genre": "Children's books",
+    "desc": "The main theme of the novel revolves around the morality of people, portraying a battle between good and evil."
   },
   {
     "author": "F. Scott Fitzgerald",
@@ -30,7 +32,8 @@
     "pages": 180,
     "image": "https://m.media-amazon.com/images/I/71mSLwEpHEL.jpg",
     "schoolid": 4,
-    "genre": "Biography"
+    "genre": "Biography",
+    "desc": "he novel revolves around Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman."
   },
   {
     "author": "JK Rowling",
@@ -38,7 +41,8 @@
     "pages": 870,
     "image": "https://m.media-amazon.com/images/I/81a4yXpXjnL._AC_UY327_FMwebp_QL65_.jpg",
     "schoolid": 5,
-    "genre": "Fiction"
+    "genre": "Fiction",
+    "desc": "The story follows Harry Potter as he returns to Hogwarts School of Witchcraft and Wizardry, facing challenges and mysteries while preparing for the looming threat of Lord Voldemort."
   },
   {
     "author": "Markus Zusak",
@@ -46,7 +50,8 @@
     "pages": 552,
     "image": "https://th.bing.com/th?id=OIP.z8VzfJ6uo6N7-mot7xIt-wHaLa&w=201&h=310&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 6,
-    "genre": "Historical Fiction"
+    "genre": "Historical Fiction",
+    "desc": "The story follows Liesel Meminger, a young girl who grows up in difficult times during Hitler's regime. It explores her life in her neighborhood and the lives of those around her."
   },
   {
     "author": "Haruki Murakami",
@@ -54,7 +59,8 @@
     "pages": 296,
     "image": "https://th.bing.com/th?id=OIP.9XMEF3sGrWp9LI0VRdj9PgAAAA&w=183&h=282&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 7,
-    "genre": "Contemporary Fiction"
+    "genre": "Contemporary Fiction",
+    "desc": "The story is narrated by Toru Watanabe, a college student reflecting on his past experiences and relationships, particularly with two women, Naoko and Midori."
   },
   {
     "author": "Agatha Christie",
@@ -62,7 +68,8 @@
     "pages": 256,
     "image": "https://th.bing.com/th/id/OIP.sVOx_4aUPIjG6DBpIJvGDAHaLg?w=200&h=311&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     "schoolid": 9,
-    "genre": "Mystery"
+    "genre": "Mystery",
+    "desc": "The story begins with the discovery of the murder of an American man named Ratchett aboard the train. Renowned detective Hercule Poirot is on board and is tasked with solving the case."
   },
   {
     "author": "Jane Austen",
@@ -70,7 +77,8 @@
     "pages": 432,
     "image": "https://th.bing.com/th/id/OIP.wcZjPkH4FZD5QYi_2kfxxAHaLS?w=202&h=308&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     "schoolid": 9,
-    "genre": "Classic"
+    "genre": "Classic",
+    "desc": "he story follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a wealthy and proud man. It explores themes of love, class, and societal expectations."
   },
   {
     "author": "Stephen King",
@@ -78,7 +86,8 @@
     "pages": 688,
     "image": "https://th.bing.com/th/id/OIP.JjrFGuPAU7Wq1S-sYsT8zwHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     "schoolid": 10,
-    "genre": "Horror"
+    "genre": "Horror",
+    "desc": "The story follows Jack Torrance, his wife Wendy, and their uniquely gifted son Danny as they move into the isolated Overlook Hotel for the winter. As the family grapples with the hotel's dark past and supernatural forces, Jack's descent into madness threatens their very lives."
   },
   {
     "author": "Gabriel Garcia Marquez",
@@ -86,7 +95,8 @@
     "pages": 432,
     "image": "https://th.bing.com/th?id=OIP.pznDWuxQ3mYt-Ij6w6wRowHaLX&w=201&h=309&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 11,
-    "genre": "Magical Realism"
+    "genre": "Magical Realism",
+    "desc": "The story delves into the Buendía family's history, exploring themes of love, conflict, and the cyclical nature of life in the fictional town of Macondo. It chronicles the struggles, triumphs, and tragedies that span over a century."
   },
   {
     "author": "Louisa May Alcott",
@@ -94,7 +104,8 @@
     "pages": 992,
     "image": "https://th.bing.com/th?id=OIP.CCx-z4Y6yopnYf_HWW1sYwHaLi&w=200&h=311&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 12,
-    "genre": "Classic"
+    "genre": "Classic",
+    "desc": "The story revolves around the March sisters, their experiences, and the challenges they face as they grow up in a New England family of modest means. It explores themes of family, love, society, and gender roles."
   },
   {
     "author": "Toni Morrison",
@@ -102,7 +113,8 @@
     "pages": 324,
     "image": "https://th.bing.com/th?id=OIP.j-_x9yCGpMUta_JRzcwdOgHaLW&w=201&h=309&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 13,
-    "genre": "Fiction"
+    "genre": "Fiction",
+    "desc": "Set in the aftermath of the American Civil War, the novel delves into the harrowing tale of a dysfunctional family haunted by the legacy of slavery. It explores themes of trauma, memory, and the enduring impact of historical injustices."
   },
   {
     "author": "Charles Dickens",
@@ -110,7 +122,8 @@
     "pages": 576,
     "image": "https://th.bing.com/th?id=OIP.aSEh0bPzxBaZc3x3AR10XAHaLS&w=202&h=308&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 14,
-    "genre": "Classic"
+    "genre": "Classic",
+    "desc": "The story begins with an encounter between Pip and an escaped convict in a graveyard, setting off a chain of events that shape Pip's life. As he grows up, Pip receives a large fortune from an unknown benefactor, leading him to London and high society."
   },
   {
     "author": "Suzanne Collins",
@@ -118,7 +131,8 @@
     "pages": 384,
     "image": "https://th.bing.com/th?id=OIP.OVbBub_hdVAaLbJrtWEFXgHaLL&w=203&h=307&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 15,
-    "genre": "Science Fiction"
+    "genre": "Science Fiction",
+    "desc": "The story is narrated from the perspective of 16-year-old Katniss Everdeen, who lives in a post-apocalyptic world where the government forces children to participate in a brutal televised event called the Hunger Games. The participants, known as "tributes," must fight to the death in an arena, with the sole survivor being rewarded with fame and wealth."
   },
   {
     "author": "Leo Tolstoy",
@@ -126,7 +140,8 @@
     "pages": 1225,
     "image": "https://th.bing.com/th?id=OIP.bJvKJxVj0JrHMwEjfm4m3AAAAA&w=197&h=316&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 16,
-    "genre": "Historical Fiction"
+    "genre": "Historical Fiction",
+    "desc": "The main focus of War and Peace is the invasion of Russia by Napoleon in 1812. The novel follows the lives of three well-known characters: Natasha Rostov, Prince Andrei Bolkonsky, and Pierre Bezukhov, as they navigate through love, war, and personal growth amidst the chaos of historical events."
   },
   {
     "author": "Jojo Moyes",
@@ -134,6 +149,7 @@
     "pages": 400,
     "image": "https://th.bing.com/th?id=OIP.PWndCqL_1VKRiW96vrOi9gHaLL&w=203&h=307&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
     "schoolid": 17,
-    "genre": "Romance"
+    "genre": "Romance",
+    "desc": "The story follows the quirky Louisa Clark, who, after losing her job, embarks on a journey to find a new one. Along the way, she meets Will Traynor, a man whose life is drastically changed after an accident, leading to a unique and touching relationship between the two characters."
   }
 ]
