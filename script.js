@@ -1,6 +1,6 @@
 // Define the Book class to create book objects
 class Book {
-  constructor(author, title, pages, id, image, schoolid, genre) {
+  constructor(author, title, pages, id, image, schoolid, genre, desc) {
     this.author = author;
     this.title = title;
     this.pages = pages;
@@ -8,6 +8,7 @@ class Book {
     this.image = image;
     this.schoolid = schoolid;
     this.genre = genre;
+    this.desc = desc;
   }
 }
 
@@ -87,6 +88,9 @@ sortDropdown.addEventListener("change", () => {
     case "genre":
       myLibrary.sort((a, b) => a.genre.localeCompare(b.genre));
       break;
+      case "desc":
+        myLibrary.sort((a, b) => a.desc.localeCompare(b.desc));
+        break;
     default:
       // Handle unknown or default option
       break;
@@ -107,6 +111,7 @@ modalForm.addEventListener("submit", (e) => {
   const id = Date.now(); // Generate a unique ID using the current timestamp
   const schoolid = document.querySelector("#schoolid").value;
   const genre = document.querySelector("#genre").value; // Get genre value
+  const desc = document.querySelector("#desc").value;
 
   // Get the selected image file if provided
   const imageInput = document.querySelector("#image");
@@ -118,7 +123,7 @@ modalForm.addEventListener("submit", (e) => {
   }
 
   // Add the new book to the library
-  addBookToLibrary(author, title, pages, id, image, schoolid, genre);
+  addBookToLibrary(author, title, pages, id, image, schoolid, genre, desc);
 
   // Clear the books container and display the updated library
   booksContainer.textContent = "";
@@ -198,6 +203,10 @@ const displayBooks = (library) => {
     genreElement.textContent = `Genre: ${book.genre}`;
     card.appendChild(genreElement);
 
+    const descElement = document.createElement("p");
+    descElement.textContent = `Desc: ${book.desc}`;
+    card.appendChild(descElement);
+
   // Create a remove button for deleting the book
   const removeButton = document.createElement("button");
   removeButton.textContent = "Remove";
@@ -234,8 +243,8 @@ const displayBooks = (library) => {
 };
 
 // Add a book to the library
-function addBookToLibrary(author, title, pages, id, image, schoolid, genre) {
-  const newBook = new Book(author, title, pages, id, image, schoolid, genre);
+function addBookToLibrary(author, title, pages, id, image, schoolid, genre, desc) {
+  const newBook = new Book(author, title, pages, id, image, schoolid, genre, desc);
   myLibrary.push(newBook);
 }
 
@@ -244,8 +253,8 @@ fetch("./books.json")
   .then((response) => response.json())
   .then((data) => {
     myLibrary = data.map((bookData) => {
-      const { author, title, pages, id, image, schoolid, genre } = bookData; // Destructuring
-      return new Book(author, title, pages, id, image, schoolid, genre);
+      const { author, title, pages, id, image, schoolid, genre, desc } = bookData; // Destructuring
+      return new Book(author, title, pages, id, image, schoolid, genre, desc);
     });
 
     // Display the books in the library
